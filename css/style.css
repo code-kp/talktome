@@ -1,7 +1,17 @@
 @import"scrollbar.css";
 
+@font-face{
+	font-family: "Action Jackson";
+	src:url("../fonts/actionj.ttf");
+}
+@font-face{
+	font-family: "corbel";
+	src:url("../fonts/Corbel.ttf");
+}
+
 *{
 	margin:0 auto 0 auto;
+	font-family: 'corbel';
 }
 
 body{
