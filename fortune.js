@@ -28,9 +28,8 @@ function addOutput(userText){
 
 	output.innerHTML += user+guruji;
 
+	inpText.value="";
 	output.scrollByLines(100);
-	inpText.selected();
-	inpText.value.selected();
 
 	return true;
 }
