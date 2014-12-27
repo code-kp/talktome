@@ -1,0 +1,41 @@
+#converDiv::-webkit-scrollbar{
+	width:6px;
+}
+
+#converDiv::-webkit-scrollbar-track{
+	width:8px;
+	background:#c5c6cb;
+	border-radius:38px;
+}
+
+#converDiv::-webkit-scrollbar-thumb{
+	width:6px;
+	background:#a4a5ad;
+	border-radius:40px;
+
+	box-shadow:inset 0 0 5px 1px #000;
+}
+
+
+//for hover
+#converDiv::-webkit-scrollbar:hover{
+	width:13px;
+}
+#converDiv::-webkit-scrollbar-track:hover{
+	width:13px;
+	background:#a4a5b1;
+	border-radius:38px;
+}
+
+#converDiv::-webkit-scrollbar-thumb:hover{
+	width:13px;
+	background:#7b7c83;
+	border-radius:40px;
+}
+
+//for active
+#converDiv::-webkit-scrollbar-thumb:active{
+	width:13px;
+	background:#7b7c83;
+	border-radius:40px;
+}
