@@ -29,7 +29,7 @@ function addOutput(userText){
 	output.innerHTML += user+guruji;
 
 	inpText.value="";
-	output.scrollByLines(100);
+	output.scroll(0,1000);
 
 	return true;
 }
